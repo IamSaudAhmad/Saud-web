@@ -142,7 +142,7 @@ function initContactForm() {
             }
             
             // Create mailto link
-            const mailtoLink = `mailto:saud0349@myyahoo.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+            const mailtoLink = `mailto:saud.tech@myyahoo.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
             
             // Open email client
             window.location.href = mailtoLink;
